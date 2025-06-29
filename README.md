@@ -1,7 +1,7 @@
 # 📝 Calculadora Básica 1
 
 Proyecto sencillo de una calculadora básica, con un fondo transparente y usando funciones de JavaScript para hacer operaciones básicas.
----
+
 
 ## 🚀 Tecnologías utilizadas
 
