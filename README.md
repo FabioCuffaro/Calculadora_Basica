@@ -8,10 +8,12 @@ Proyecto sencillo de una calculadora básica, con un fondo transparente y usando
 ## 🚀 Tecnologías utilizadas
 
 - HTML5, CSS3, JavaScript.
+---
 
 ## ⚙️ Mejoras futuras
 
 -Crear un botón para poder pasar a oscuro la aplicación y los botones usando javaScript
+---
 
 ## 📸 Capturas de pantalla
 
@@ -24,3 +26,4 @@ Proyecto sencillo de una calculadora básica, con un fondo transparente y usando
 **Nombre**: [Fabio Cuffaro Camara]  
 **Curso**: Youtube     
 **Año**: 2025
+---
