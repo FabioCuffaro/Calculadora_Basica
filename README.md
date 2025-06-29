@@ -6,7 +6,6 @@ Proyecto sencillo de una calculadora básica, con un fondo transparente y usando
 ## 🚀 Tecnologías utilizadas
 
 - HTML5, CSS3, JavaScript.
----
 
 ## 📸 Capturas de pantalla
 
