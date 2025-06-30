@@ -1,34 +1,24 @@
 /*Quitados en ambos tanto los margenes como el padding*/
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     background: linear-gradient(320deg, rgb(8, 255, 169), rgb(15, 226, 253), rgba(123, 238, 35, 0.63));
 }
 
-/*Contenedor de la calculadora, dándole un tamaño de toda la pantalla*/
-
-.contenedor{
-    width: 100vw;
-    height: 100vh;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-
-    font-family:sans-serif;
-}
 
 /*Contenedor de la calculadora para que funcione display: flex
 Además de darle un blur al fondo para que se noten los colores del degradado de detrás*/
 
 .calculadora{
+
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+
     box-sizing: border-box;
 
     backdrop-filter: blur(5.5px);
@@ -144,4 +134,14 @@ Además de darle un blur al fondo para que se noten los colores del degradado de
 
 .zero{
     padding: 0 97px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.231);
+    color: white;
+
+    padding: 15px;
+    text-align: center;
+
+    font-size: 26px;
 }
