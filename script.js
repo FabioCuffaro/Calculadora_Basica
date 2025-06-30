@@ -18,7 +18,7 @@ function click(valor) {
 }
 
 function manejarNumero(numero) {
-    if (buffer === "0" || buffer === "operando") {
+    if (buffer === "0") {
         buffer = numero;
     } else {
         buffer += numero;
