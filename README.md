@@ -8,7 +8,7 @@ Proyecto sencillo de una calculadora básica, con un fondo transparente y usando
 ## 🚀 Tecnologías utilizadas
 
 - HTML5, CSS3, JavaScript
-- La lógica principal ha sido desarrollada con mediante JavaScript y usando funciones para recolectar la información del DOM
+- La lógica principal ha sido desarrollada mediante JavaScript y usando funciones para recolectar la información del DOM
 
 <br>
 
