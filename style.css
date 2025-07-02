@@ -148,14 +148,12 @@ footer{
 
 @media (max-width: 500px) and (max-height: 800px) {
   
-.calculadora{
-       
-       padding: 30px 35px;
-    
-    }
+.mobile{
+    margin-bottom: 12px;
+}
 
     footer{
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 }
 
