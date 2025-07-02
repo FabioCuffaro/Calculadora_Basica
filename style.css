@@ -146,6 +146,20 @@ footer{
     font-size: 26px;
 }
 
+@media (max-width: 500px) and (max-height: 800px) {
+  
+.calculadora{
+       
+       padding: 30px 35px;
+    
+    }
+
+    footer{
+        margin-bottom: 15px;
+    }
+}
+
+
 
 @media (min-width: 1400px) and (min-height: 800px) {
   
