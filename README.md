@@ -4,7 +4,6 @@ Proyecto sencillo de una calculadora básica, con un fondo transparente y usando
 ---
 <br>
 
-https://github.com/FabioCuffaro/Calculadora_Basica/blob/master/README.md
 ## 🚀 Tecnologías utilizadas
 
 - HTML5, CSS3, JavaScript
