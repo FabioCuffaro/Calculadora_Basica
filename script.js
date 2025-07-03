@@ -21,7 +21,8 @@ botones.forEach(boton => {
         }
         else if (texto === "=") {
             try {
-                // Evaluar de forma segura reemplazando símbolos por operadores JS
+                // Evaluar de forma segura reemplazando símbolos por operadores JS, 
+                //sino sería complicadas las operaciones
                 const resultado = eval(operacion
                     .replace(/÷/g, '/')
                     .replace(/×/g, '*')
