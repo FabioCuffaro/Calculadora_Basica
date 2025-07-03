@@ -1,0 +1,173 @@
+/*Quitados en ambos tanto los margenes como el padding*/
+
+body{
+    margin:0;
+    padding: 0;
+
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background: linear-gradient(320deg, rgb(8, 255, 169), rgb(15, 226, 253), rgba(123, 238, 35, 0.63));
+}
+
+
+/*Contenedor de la calculadora para que funcione display: flex
+Además de darle un blur al fondo para que se noten los colores del degradado de detrás*/
+
+.calculadora{
+
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+
+    box-sizing: border-box;
+
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.492);
+    
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.30);
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.18);
+
+    width: 360px;
+    height: 485px;
+
+    padding: 22px 35px;
+}
+
+/*Donde saldrán los datos*/
+
+.pantalla{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.05);
+
+    overflow: auto;
+    font-size: 35px;
+    padding: 15px;
+
+    border-radius: 25px;
+    text-align: right;
+
+    color: rgb(0, 139, 7);
+}
+
+/*Contenedor de los botones en fila de toda la calculadora, con un alto y ancho también especificado*/
+
+.calc-botones{
+    box-sizing: border-box;
+    width: 290px;
+    height: 450px;
+}
+
+/*Display flex y justify-content: space between para dejar el espacio restante dentro del contenedor para que se repartan equitativamente los botones*/
+
+.calc-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/*Disposición y diseño de los botones*/
+
+.calc-button{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.295);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+
+    border-radius: 15px;
+    font-size: 28px;
+
+    padding: 10px 20px;
+    
+}
+
+/*Escoger solo los últimos botones dentro de las calc-row o lineas de la calculadora*/
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.168);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    background: #17bc98ca;
+    color: white;
+}
+
+/*Esta parte tanto para cuando pasas por encima como para cuando pulsas los botones*/
+
+.calc-button:hover{
+    background-color: rgba(123, 238, 35, 0.462);
+    color: aliceblue;
+}
+
+.calc-button:active{
+    background-color: rgba(123, 238, 35, 0.999);
+    color: aliceblue;
+}
+
+.calc-button:last-child:hover{
+     backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.295);
+    color: black;
+}
+
+.calc-button:last-child:active{
+     backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.732);
+    color: black;
+}
+
+/*Por ultimo para darle más padding por dentro a los botones que se quedaban más sueltos, así ocupamos mejor el espacio*/
+
+.c{
+    padding: 0 55px;
+}
+
+.zero{
+    padding: 0 97px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.231);
+    color: white;
+
+    padding: 15px;
+    text-align: center;
+
+    font-size: 26px;
+}
+
+@media (max-width: 500px) and (max-height: 800px) {
+  
+.calculadora{
+   height: 500px;
+}
+
+    footer{
+        margin-bottom: 25px;
+    }
+}
+
+
+
+@media (min-width: 700px) and (min-height: 800px) {
+  
+.calculadora{
+       
+        margin: auto;
+        margin-top: 150px;
+        margin-bottom: 155px;
+
+        box-sizing: border-box;
+    
+    }
+}
