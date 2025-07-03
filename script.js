@@ -22,13 +22,7 @@ botones.forEach(boton => {
         else if (texto === "=") {
             try {
                 // Evaluar de forma segura reemplazando símbolos por operadores JS
-                const resultado = eval(operacion
-                    .replace(/÷/g, '/')
-                    .replace(/×/g, '*')
-                    .replace(/−/g, '-')
-                    .replace(/–/g, '-') // en caso de guiones largos
-                    .replace(/\+/g, '+')
-                );
+                const resultado = eval(operacion);
                 pantalla.textContent = resultado;
                 operacion = resultado.toString(); // permite seguir operando
             } catch {
