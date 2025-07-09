@@ -1,4 +1,4 @@
-/*Simbolos para el Switch
+/*Simbolos
 ← , − , × , ÷ , +    */
 
 // Calculadora Básica funcional desde cero
